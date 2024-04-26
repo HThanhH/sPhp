@@ -1,0 +1,19 @@
+.nav-top-link {
+    text-decoration: none;
+    padding: 10px 0;
+    color: aliceblue;
+}
+ul.list-person{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+ul.list-person  a img{
+    max-width: 100%;
+    transform: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+ul.list-person li:hover img{
+    transform: scale(1.1);
+}
